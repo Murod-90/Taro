@@ -43,16 +43,8 @@ header {}
    padding-left: 196px;
    padding-bottom: 178px;
 }
-.container{
-    max-width: 1700px;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-   
 
-}
 .freee{
-    width: 992px;
     font-family: var(--mont);
     font-weight: 700;
     font-size: 48px;
@@ -62,7 +54,6 @@ header {}
     margin-bottom: 22px;
 }
 .text__column{
-    width: 763px;
     height: 330px;
     font-size: 24px;
     font-weight: 400px;
