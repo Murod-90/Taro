@@ -26,8 +26,81 @@ a {
     text-decoration: none;
     list-style: none;
 }
+.header__akmal-logo{
+    transform: rotate(-144deg) skew(-12deg);
+    
+}
 .header__img{
-    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    width: 130px;
+    height: 100px;
+}
+.header__top{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.akmal__left{
+    display: flex;
+}
+.akmal__top-text{
+    margin-top: 20px;
+    width: 100px;
+    font-family: var(--mont);
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(0, 110, 255, 0.698);
+}
+.akmal__titls{
+    margin-top: 20px;
+    font-family: var(--mont);
+    font-weight: 700;
+    font-size: 20px;
+}
+.akmal__top-right{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.tel__text{
+    font-family: var(--mont);
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+}
+.akmal__top-right-text{
+    font-family: var(--mont);
+    font-weight: 400;
+    font-size: 18px;
+    color: orange;
+}
+.ak__section-navbar{
+    display: flex;
+    height: 100px;
+    background: #2777AC;
+}
+.header__nav{
+    height: 100%;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+.header__list>li{
+    height: 100%;
+}
+.header__link{
+    font-family: var(--mont);
+    font-weight: 400;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
 .header__content{
     display: flex;
