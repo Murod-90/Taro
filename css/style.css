@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-:root{
+:root {
     --mont: 'Montserrat';
     --nuni: 'Nunito';
 }
@@ -29,8 +29,69 @@ a {
 
 header {}
 
+.alijon {
+    margin-top: 95px;
+}
 
-.alijon {}
+.alijon__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.alijon__title {
+    font-family: var(--mont);
+    font-weight: 700;
+    font-size: 64px;
+    color: #2777AC;
+    text-align: center;
+}
+
+.alijon__item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(390px, max-content);
+    grid-gap: 30px;
+}
+
+.alijon__block-title {
+    font-family: var(--nuni);
+    font-weight: 800;
+    font-size: 18px;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.alijon__text {
+    font-family: var(--mont);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 23px;
+}
+
+
+.alijon__p {
+    font-family: var(--mont);
+    font-weight: 700;
+    font-size: 18px;
+    color: #9C1023;
+    margin-top: 20px;
+}
+
+.alijon__span {
+    font-family: var(--mont);
+    font-weight: 400;
+    font-size: 24px;
+    color: #2777AC;
+    margin-left: 65px;
+}
+
+.alijon__icon {
+    margin-left: 15px;
+}
 
 
 .bobur {}
