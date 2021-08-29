@@ -268,7 +268,103 @@ a {
 .bobur {}
 
 
-.aziz {}
+.aziz {
+    background-image: url(../img/Fon.png);
+    height: 1080px;
+
+}
+
+.aziz__section {
+    position: relative;
+    height: 100%;
+    display: flex;
+}
+
+
+.aziz__text {
+    font-family: var(--mont);
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    color: white;
+    padding-top: 273px;
+    width: 707px;
+}
+
+.aziz__text2{
+    color: white;
+    font-family: var(--nuni);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    padding-top: 39px;
+}
+
+.aziz__background {
+    position: absolute;
+    bottom: 0;
+}
+
+.aziz__input{
+    width: 626px;
+    height: 70px;
+    font-family: var(--nuni);
+    font-weight: 400;
+    line-height: 47px;
+    background: rgba(39, 119, 172, 0.3);
+    border-radius: 15px;
+    font-size: 36px;
+    border: 0px;
+}
+
+.aziz__block{
+    width: 707px;
+    height: 534px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    margin-left: auto;
+    border-radius: 15px;
+    padding: 57px 40px 46px;
+    justify-content: space-between;
+    text-align: justify;
+
+}
+
+.aziz__button{
+    width: 274px;
+    height: 70px;
+    font-family: var(--mont);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+    background: #F9B237;
+    border-radius: 15px;
+    border: 0px;
+}
+
+.aziz__title{
+    font-family: var(--nuni);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: black;
+    
+    
+}
+.aziz__input::placeholder{
+   padding-left: 17px;
+    font-family: var(--nuni);
+    font-weight: 400;
+    font-size: 36px;
+    color: white;
+}
+.aziz__div{
+    margin-top: 273px;
+}
+
+
 
 
 .footer {}
