@@ -366,5 +366,84 @@ a {
 
 
 
+.feruz{
+   padding-top: 178px;
+   padding-left: 196px;
+   padding-bottom: 178px;
+}
+
+.freee{
+    font-family: var(--mont);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 1%;
+    color: #2777AC;
+    margin-bottom: 22px;
+}
+.text__column{
+    height: 330px;
+    font-size: 24px;
+    font-weight: 400px;
+    font-family: var(--nuni);
+}
+.glamour{
+    display: flex;  
+}
+.front{
+    padding-left: 102px;
+}
+.hello{
+    width: 274px;
+    height: 70px;
+    background: linear-gradient(95.31deg, #27DCE8 3.47%, #2777AC 76.25%);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--mont);
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 5%;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+}
+.great{
+    display: flex;
+    
+}
+.hello__follow{
+   background: white;
+   color: #2777AC;
+   border: 3px solid #2777AC;
+   border-radius: 15px;
+   margin-left: 49px;
+}
+.hterr{
+    width: 992px;
+    font-family: var(--mont);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 1%;
+    margin-bottom: 22px;
+   margin-top: 67px;
+}
+.inter{
+ 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 69px;
+ 
+}
+.inter__img{
+    height: 250px;
+    
+}
+
+.height{
+    
+}
 
 .footer {}
